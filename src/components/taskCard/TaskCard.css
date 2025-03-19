@@ -1,0 +1,51 @@
+.card-container{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    gap: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0, 0.4);
+    margin: 10px;
+    padding: 10px;
+}
+.edit-button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1B99D4;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-property: background-color;
+    transition-delay: 0.1s;
+}
+.edit-button:hover{
+    background-color: #1B78C3;
+}
+.delete-button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D41B1B;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-property: background-color;
+    transition-delay: 0.1s;
+}
+.delete-button:hover{
+    background-color: #C31B1B;
+}
+.completed{
+    color: green;
+}
+.not-completed{
+    color: #D41B1B;
+}

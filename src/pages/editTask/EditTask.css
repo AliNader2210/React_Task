@@ -1,0 +1,36 @@
+.edit-header{
+    text-align: center;
+    background-color: #1B99D4;
+    color: white;
+    padding: 20px 0;
+}
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    gap: 20px;
+}
+.edit-input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    width: 500px;
+}
+.save-btn{
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1B99D4;
+    color: white;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+.save-btn:hover{
+    background-color: #18699B;
+}

@@ -1,0 +1,44 @@
+.tasks-header{
+    text-align: center;
+    background-color: #1B99D4;
+    color: white;
+    padding: 20px 0;
+}
+.tasks-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.add-form{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.task-input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.completed-radio{
+    margin: 0 20px;
+}
+.add-button{
+    padding: 0 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1B99D4;
+    color: white;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+.add-button:hover{
+    background-color: #176796;
+}
+.status-container{
+    padding: 10px;
+}
