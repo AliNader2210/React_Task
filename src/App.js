@@ -7,7 +7,7 @@ import EditTask from './pages/editTask/EditTask';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' element={<Tasks/>}/>
           <Route path='/edit/:id' element={<EditTask/>}/>
